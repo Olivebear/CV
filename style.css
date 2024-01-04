@@ -1,7 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
 }
 
 .container {
@@ -13,9 +11,38 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.header_title {
+  text-align: center; /* Ensures consistent centering for long names */
+  margin-right: auto; /* Prevents text wrapping under the button */
+}
+
+.header_call {
+  display: inline-block; /* Ensures proper styling and behavior */
+  background-color: #4CAF50;
+  color: white; /* text color*/
+  padding: 15px 20px; /* Button size */
+  text-align: center; /* Aligns text within button */
+  text-decoration: none; /* Removes underline from link */
+  border: none; /* Removes default button border */
+  border-radius: 5px; /* Rounded corners */
+}
+
 h1, h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 ul {
@@ -30,8 +57,17 @@ li {
 .contact {
   text-align: center;
   margin-bottom: 20px;
+  margin-right: 5px;
 }
 
-.contact {
-  margin-right: 5px;
+.contact ul {
+  position: relative;
+}
+
+.contact ul li {
+  position: relative;
+}
+
+.experience ul li ul li{
+  list-style:inside;
 }
