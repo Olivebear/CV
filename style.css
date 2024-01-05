@@ -20,11 +20,6 @@ header {
   background-color: white;
 }
 
-.header_title {
-  text-align: center; /* Ensures consistent centering for long names */
-  margin-right: auto; /* Prevents text wrapping under the button */
-}
-
 .header_call {
   display: inline-block; /* Ensures proper styling and behavior */
   background-color: #4CAF50;
