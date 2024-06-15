@@ -64,38 +64,3 @@ li {
 .employment ul li ul li{
   list-style:inside;
 }
-
-/* Bottom navigation */
-.bottom-nav {
-    display: none; /* Hide by default */
-    position:sticky;
-    bottom: 0px;
-    background-color: white;
-    text-align: center;
-}
-
-.bottom-nav a {
-    display: inline-block;
-    padding: 5px;
-    background-color: white;
-    text-decoration: none;
-    color: black;
-    border: 1px solid var(--secondary-color);
-    border-radius: 5px;
-}
-
-.bottom-nav .call {
-  display: inline-block;
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-}
-
-@media (max-width: 768px) { /* Show navigation buttons on smaller screens */
-    .bottom-nav {
-        display: block;
-    }
-}
